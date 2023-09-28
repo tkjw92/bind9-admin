@@ -15,7 +15,7 @@ named_file.write(template_named)
 MysqlDB = mysql.connector.connect(
     host='localhost',
     username='admin',
-    password='123',
+    password='admin123',
     db='bind9'
 )
 
